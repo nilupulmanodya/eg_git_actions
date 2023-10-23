@@ -1,5 +1,5 @@
 import pytest
-from main import APP
+from server1.main import APP
 
 def test_request_example(client):
     response = client.get("/")
