@@ -1,5 +1,5 @@
 import pytest
-from main import APP
+from server1.main import APP
 
 @pytest.fixture()
 def app():
